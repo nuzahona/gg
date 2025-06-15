@@ -1,6 +1,6 @@
 streamlit
 transformers
-torch==2.0.1
+torch==torch==2.7.1
 sentencepiece
 protobuf
 faiss-cpu
