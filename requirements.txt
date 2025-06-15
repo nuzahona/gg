@@ -1,7 +1,7 @@
 streamlit
 transformers
 torch==2.7.1
-sentencepiece
+sentencepiece==0.2.0 --prefer-binary
 protobuf
 faiss-cpu
 sentence-transformers
@@ -9,4 +9,8 @@ openai
 opencv-python
 pillow
 python-dotenv
-
+streamlit
+numpy
+pandas
+scikit-learn
+# (and any other packages your app needs)
