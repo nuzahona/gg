@@ -7,3 +7,8 @@ opencv-python
 pillow
 python-dotenv
 openai
+sentencepiece
+protobuf
+transformers
+torch
+
