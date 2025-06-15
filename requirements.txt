@@ -1,14 +1,12 @@
 streamlit
-torch
-sentence-transformers
 transformers
+torch==2.0.1
+sentencepiece
+protobuf
 faiss-cpu
+sentence-transformers
+openai
 opencv-python
 pillow
 python-dotenv
-openai
-sentencepiece
-protobuf
-transformers
-torch
 
