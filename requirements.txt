@@ -3,7 +3,6 @@ torch
 sentence-transformers
 transformers
 faiss-cpu
-paddleocr
 opencv-python
 pillow
 python-dotenv

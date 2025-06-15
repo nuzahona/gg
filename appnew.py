@@ -10,10 +10,9 @@ import openai
 from openai import OpenAI
 import random
 import re
-from paddleocr import PaddleOCR
 from dotenv import load_dotenv
 import os
-
+import pytesseract
 load_dotenv()  
 # Avoid KMP duplicate library errors
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
