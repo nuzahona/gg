@@ -12,7 +12,7 @@ import random
 import re
 from dotenv import load_dotenv
 import os
-import pytesseract
+
 load_dotenv()  
 # Avoid KMP duplicate library errors
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
