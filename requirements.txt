@@ -14,3 +14,9 @@ numpy
 pandas
 scikit-learn
 # (and any other packages your app needs)
+opencv-python
+numpy
+opencv-python
+numpy
+opencv-python-headless
+numpy
