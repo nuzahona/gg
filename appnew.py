@@ -112,7 +112,8 @@ def image_to_text_tess(image_file):
     Runs Tesseract OCR on an image and returns Bangla text only.
     """
     from PIL import Image
-    import cv2, numpy as np
+    import cv2 
+    import numpy as np
 
     tess = load_tesseract()
 
