@@ -104,6 +104,7 @@ def generate_questions_bangla(paragraph: str, num_questions: int = 3) -> list:
 @st.cache_resource
 def load_tesseract():
     import pytesseract
+    os.environ["TESSDATA_PREFIX"] = "/usr/share/tesseract-ocr/4.00/tessdata"
     pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
     return pytesseract
 
