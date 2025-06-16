@@ -12,6 +12,8 @@ import random
 import re
 from dotenv import load_dotenv
 import os
+import pytesseract
+
 
 load_dotenv()  
 # Avoid KMP duplicate library errors
@@ -102,9 +104,9 @@ def generate_questions_bangla(paragraph: str, num_questions: int = 3) -> list:
 @st.cache_resource
 def load_tesseract():
     import pytesseract
-    pytesseract.pytesseract.tesseract_cmd = (
-        r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # ← adjust if different
-    )
+    #pytesseract.pytesseract.tesseract_cmd = (
+    #    r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # ← adjust if different
+    #)
     return pytesseract
 
 def image_to_text_tess(image_file):
